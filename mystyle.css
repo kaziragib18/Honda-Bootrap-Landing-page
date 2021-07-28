@@ -6,9 +6,9 @@ body{
     background-color:#264653;
 }
 
-/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(0,0,0,.55);
-} */
+} 
 
 .top-bar h6{
     font-size: 0.9rem;
@@ -95,15 +95,19 @@ main h5{
     flex-direction: column;
     margin-left: 25%;
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 .user-text{
     color: black;
 }
 .img-round{
     position: static;
-    width: 139px;
-    height: 139px;
-    left: calc(50% - 149px/2);
+    width: 169px;
+    height: 169px;
+    margin-left: 25%;
+    margin-top: 11%;
+    margin-bottom: 5.7%;
+    clip-path: circle();
     top: 40px;
 }
 #star{
@@ -117,6 +121,14 @@ main h5{
     line-height: 24px;
 }
 /* FAQ Section */
+.accordion-button{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #383838;
+
+}
 .faq-text{
     font-family: Inter;
     font-style: normal;
@@ -124,6 +136,27 @@ main h5{
     font-size: 16px;
     line-height: 28px;
     color: #7E848C;
+}
+/* Comming soon News Carosal */
+.other-bike-box{
+    background-color: rgb(255, 255, 255);
+}
+
+.other-bike-card{
+    margin:15%;
+}
+.other-section-img{
+    width: 95%;
+    height: 20em;
+    background-color: rgb(255, 255, 255);
+}
+.other-section-info-card p{
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+#title-section{
+    font-weight: 700;
+    color: #E77C40;
 }
 
 /* Contact section */
