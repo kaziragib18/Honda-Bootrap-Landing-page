@@ -1,14 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;;
 }
-/* Top Section header */
+/*------ Top Section header--------- */
 .header{
     background-color:#264653;
 }
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,.55);
-} 
 
 .top-bar h6{
     font-size: 0.9rem;
@@ -34,7 +30,7 @@ p{
 }
 
 
-/* button design */
+/*------- button design------------ */
 .btn-design{
     background: #E76F51;
     border-radius: 5px;
@@ -53,9 +49,7 @@ main h5{
     font-size:25px;
     color: #363958;
 }
-.product{
-    border-radius:1em;
-}
+/*----- Feature bike card color change ----*/
 .card{
     color: rgb(255, 255, 255);
     border: #FFFFFF;
@@ -66,14 +60,14 @@ main h5{
     justify-content:center;
     filter: grayscale(100%);
 }
-
+/*-------- Line under feature bike section -----------*/
 .stroke{
     width:115px;
     height: 1px;
     border-radius:5px;
     background-image: linear-gradient(90deg, tomato, lightsalmon);
 }
-/* review section */
+/*----------- review section--------- */
 .first-header{
     color: #0A0826;
     font-family: Poppins;
@@ -120,7 +114,7 @@ main h5{
     font-size: 14px;
     line-height: 24px;
 }
-/* FAQ Section */
+/* -------FAQ Section---------- */
 .accordion-button{
     font-family: poppins;
     font-style: normal;
@@ -137,7 +131,7 @@ main h5{
     line-height: 28px;
     color: #7E848C;
 }
-/* Comming soon News Carosal */
+/*------------ Comming soon News Carosal--------- */
 .other-bike-box{
     background-color: rgb(255, 255, 255);
 }
@@ -159,7 +153,7 @@ main h5{
     color: #E77C40;
 }
 
-/* Contact section */
+/*------------- Contact section-------------- */
 
 #contact{
     background-color: #faf8f8;
@@ -183,29 +177,3 @@ main h5{
 .hover-items:hover{
     transform: scale(1.2);
 }
-
-/* Responsive Media Query */
-@media (min-width: 1200px) { 
-    .first-inventories img{
-        width: 60%;
-    }
- }
- @media (max-width: 1200px) { 
-    .first-inventories img{
-        width: 80%;
-    }
- }
- @media (max-width: 992px) { 
-    .first-inventories img{
-        width: 60%;
-    }
- }
-@media (max-width: 768px) {
-    .first-inventories img{
-        width: 33%;
-    }
-    .first-inventories h5{
-        margin-top: 10px;
-    }
-}
-
