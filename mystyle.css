@@ -1,0 +1,178 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+/* Top Section header */
+.header{
+    background-color:#264653;
+}
+
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.55);
+} */
+
+.top-bar h6{
+    font-size: 0.9rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.top-bar h1{
+    font-size: 3rem;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+p{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
+/* button design */
+.btn-design{
+    background: #E76F51;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main h2{
+    font-size:30px;
+    color: #363958;
+}
+main h5{
+    font-size:25px;
+    color: #363958;
+}
+.product{
+    border-radius:1em;
+}
+.card{
+    color: rgb(255, 255, 255);
+    border: #FFFFFF;
+}
+.card-image{
+    background-color: #ffffff;
+    display: flex;
+    justify-content:center;
+    filter: grayscale(100%);
+}
+
+.stroke{
+    width:115px;
+    height: 1px;
+    border-radius:5px;
+    background-image: linear-gradient(90deg, tomato, lightsalmon);
+}
+/* review section */
+.first-header{
+    color: #0A0826;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 72px;
+}
+.second-header{
+    color: #E76F51;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 72px;
+}
+.card-img-user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.user-text{
+    color: black;
+}
+.img-round{
+    position: static;
+    width: 139px;
+    height: 139px;
+    left: calc(50% - 149px/2);
+    top: 40px;
+}
+#star{
+    color:#E77C40;
+}
+.review-txt{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* FAQ Section */
+.faq-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7E848C;
+}
+
+/* Contact section */
+
+#contact{
+    background-color: #faf8f8;
+    height: 600px;
+    border-radius:20px;
+    
+}
+.fa-youtube{
+    color: #f00;
+}
+.fa-twitter-square{
+    color: #1699ff;
+}
+.fa-facebook{
+    color:  #0267e2;
+}
+/* All Hover Item design  */
+.hover-items{
+    transition: all 1s;    
+}
+.hover-items:hover{
+    transform: scale(1.2);
+}
+
+/* Responsive Media Query */
+@media (min-width: 1200px) { 
+    .first-inventories img{
+        width: 60%;
+    }
+ }
+ @media (max-width: 1200px) { 
+    .first-inventories img{
+        width: 80%;
+    }
+ }
+ @media (max-width: 992px) { 
+    .first-inventories img{
+        width: 60%;
+    }
+ }
+@media (max-width: 768px) {
+    .first-inventories img{
+        width: 33%;
+    }
+    .first-inventories h5{
+        margin-top: 10px;
+    }
+}
+
